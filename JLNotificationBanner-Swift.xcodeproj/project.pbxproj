@@ -12,6 +12,9 @@
 		9FEB04201C96FFBB0068A507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB041E1C96FFBB0068A507 /* Main.storyboard */; };
 		9FEB04221C96FFBB0068A507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB04211C96FFBB0068A507 /* Assets.xcassets */; };
 		9FEB04251C96FFBB0068A507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB04231C96FFBB0068A507 /* LaunchScreen.storyboard */; };
+		9FEB042D1C97014F0068A507 /* JLNotificationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB042C1C97014F0068A507 /* JLNotificationBanner.swift */; };
+		9FEB042F1C9702A40068A507 /* JLNotificationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB042E1C9702A40068A507 /* JLNotificationObject.swift */; };
+		9FEB04311C9740330068A507 /* JLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB04301C9740330068A507 /* JLUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9FEB04211C96FFBB0068A507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEB04241C96FFBB0068A507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FEB04261C96FFBB0068A507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEB042C1C97014F0068A507 /* JLNotificationBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLNotificationBanner.swift; sourceTree = "<group>"; };
+		9FEB042E1C9702A40068A507 /* JLNotificationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLNotificationObject.swift; sourceTree = "<group>"; };
+		9FEB04301C9740330068A507 /* JLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				9FEB04211C96FFBB0068A507 /* Assets.xcassets */,
 				9FEB04231C96FFBB0068A507 /* LaunchScreen.storyboard */,
 				9FEB04261C96FFBB0068A507 /* Info.plist */,
+				9FEB042C1C97014F0068A507 /* JLNotificationBanner.swift */,
+				9FEB042E1C9702A40068A507 /* JLNotificationObject.swift */,
+				9FEB04301C9740330068A507 /* JLUtils.swift */,
 			);
 			path = "JLNotificationBanner-Swift";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEB04311C9740330068A507 /* JLUtils.swift in Sources */,
 				9FEB041D1C96FFBB0068A507 /* ViewController.swift in Sources */,
+				9FEB042F1C9702A40068A507 /* JLNotificationObject.swift in Sources */,
 				9FEB041B1C96FFBB0068A507 /* AppDelegate.swift in Sources */,
+				9FEB042D1C97014F0068A507 /* JLNotificationBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
